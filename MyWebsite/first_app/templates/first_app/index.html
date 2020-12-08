@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Webpage's index</title>
+    <link rel="stylesheet" href="{% static "first_app\css\index.css" %}"/>
+  </head>
+  <body>
+    <h1>Welcome to the index page {{name}}</h1>
+    <h2>Please go to /users to sign up!</h2>
+  </body>
+</html>
